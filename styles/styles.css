@@ -267,6 +267,7 @@ section.success {
   font-size: 1.5em;
   background: none;
   box-shadow: none !important;
+  /* Important is needed change later*/
   resize: none;
 }
 .floating-label-form-group label {
