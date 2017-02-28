@@ -39,12 +39,7 @@
     height: 160px;
     display: block;
     max-width: 100%;
-    background: transparent url('/Users/Sam/FrontEndCode/img/profile1.png') center no-repeat;
-}
-.img1:hover {
-    background: url(/Users/Sam/FrontEndCode/img/profile2.png) center no-repeat;
-    height: 160px;
-    display: block;
+  
 }
 .slideshow {
     display: none;
