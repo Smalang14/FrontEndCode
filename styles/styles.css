@@ -1,4 +1,4 @@
-/* Sam Malang header title used to slideindown */
+/* Sam Malang header title used to prefrom slideindown animstion */
 
 .name {
     animation-duration: 4s;
@@ -32,6 +32,7 @@
         transform: none;
     }
 }
+
 /* Logo Header Hover */
 
 .img1 {
@@ -41,6 +42,9 @@
     max-width: 100%;
   
 }
+
+/* Slideshow control */
+
 .slideshow {
     display: none;
     max-width: 1280px;
@@ -68,10 +72,14 @@ video {
     max-width: 1280px;
     max-height: 800px;
 }
+
+/* Body Tag */
+
 body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
 }
+/* P Tag */
 p {
     font-size: 20px;
     text-align: center;
@@ -99,6 +107,8 @@ h6 {
     font-weight: 100;
     text-align: center;
 }
+
+/* Logo Header Hover */
 hr.star-light,
 hr.star-primary {
     padding: 0;
@@ -135,6 +145,8 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
+
+/* Header Control */
 header {
     text-align: center;
     background: #000;
@@ -159,6 +171,8 @@ header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
 }
+
+/* Responsive Control 768px */
 @media (min-width: 768px) {
     header .container {
         padding-top: 200px;
@@ -171,6 +185,8 @@ header .intro-text .skills {
         font-size: 1.75em;
     }
 }
+
+/* Navagation Control */
 .navbar-custom {
     background: linear-gradient(180deg, #606060, #5e5e5e);
     background-size: 400% 400%;
@@ -226,6 +242,8 @@ header .intro-text .skills {
     color: black;
     border-color: #FFF;
 }
+
+/* Responsive Navbar Control min-width 768px */
 @media (min-width: 768px) {
     .navbar-custom {
         padding: 25px 0;
@@ -258,6 +276,7 @@ section.success {
     background: #212121;
     color: white;
 }
+/* Responsive Navbar Control max-width 767px */
 @media (max-width: 767px) {
     section {
         padding: 75px 0;
@@ -331,7 +350,7 @@ section.success {
     font-size: 1.5em;
     background: none;
     box-shadow: none;
-    /* Important is needed change later*/
+
     
     resize: none;
 }
