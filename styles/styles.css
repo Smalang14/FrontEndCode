@@ -1,6 +1,6 @@
-/* Sam Malang header title used to prefrom slideindown animstion */
-
+/* Sam Malang header title used to prefrom slideindown animstion bound to .name */
 .name {
+  /* Lasts for 4 seconds */
     animation-duration: 4s;
     animation-name: slidein;
 }
