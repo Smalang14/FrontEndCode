@@ -5,6 +5,7 @@
     animation-name: slidein;
 }
 @keyframes slidein {
+     /* Animations transition control*/
     from, 60%, 75%, 90%, to {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -33,9 +34,6 @@
     }
 }
 
-/* Logo Header Hover */
-
-
 
 /* Slideshow control */
 
@@ -57,7 +55,7 @@ video {
     max-width: 1280px;
     max-height: 410px;
 }
-/* Google API map   */
+/* Google API map control */
 
 .googlemap {
     display: none;
@@ -67,20 +65,19 @@ video {
     max-height: 800px;
 }
 
-/* Body Tag */
+/* Body element control */
 
 body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
 }
-/* P Tag */
+/* P elelment control */
 p {
     font-size: 20px;
     text-align: center;
 }
-p.small {
-    font-size: 16px;
-}
+
+/* a element control */
 a,
 a:hover,
 a:focus,
@@ -90,6 +87,8 @@ a.active {
     ;
     outline: none;
 }
+
+/* h element control */
 h1,
 h2,
 h3,
@@ -102,9 +101,9 @@ h6 {
     text-align: center;
 }
 
-/* Logo Header Hover */
-hr.star-light,
-hr.star-primary {
+/* Control for font awsome user icon styling */
+hr.user-border,
+hr.user-border1 {
     padding: 0;
     border: none;
     border-top: solid 5px;
@@ -112,8 +111,8 @@ hr.star-primary {
     max-width: 250px;
     margin: 25px auto 30px;
 }
-hr.star-light:after,
-hr.star-primary:after {
+hr.user-border:after,
+hr.user-border1:after {
     content: "\f007";
     font-family: FontAwesome;
     display: inline-block;
@@ -122,17 +121,17 @@ hr.star-primary:after {
     font-size: 2em;
     padding: 0 0.25em;
 }
-hr.star-light {
+hr.user-border {
     border-color: white;
 }
-hr.star-light:after {
+hr.user-border:after {
     background-color: #fff;
     color: #000;
 }
-hr.star-primary {
+hr.user-border1 {
     border-color: #9C9C9C;
 }
-hr.star-primary:after {
+hr.user-border1:after {
     background-color: white;
     color: #2C3E50;
 }
@@ -154,14 +153,14 @@ header img {
     display: block;
     margin: 0 auto 20px;
 }
-header .intro-text .name {
+header .intial-text .name {
     display: block;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 2em;
 }
-header .intro-text .skills {
+header .intial-text .skills {
     font-size: 1.25em;
     font-weight: 300;
 }
@@ -172,66 +171,66 @@ header .intro-text .skills {
         padding-top: 200px;
         padding-bottom: 100px;
     }
-    header .intro-text .name {
+    header .intial-text .name {
         font-size: 4.75em;
     }
-    header .intro-text .skills {
+    header .intial-text .skills {
         font-size: 1.75em;
     }
 }
 
 /* Navagation Control */
-.navbar-custom {
+.navbar-theme {
     background: linear-gradient(180deg, #606060, #5e5e5e);
     background-size: 400% 400%;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     border: none;
 }
-.navbar-custom a:focus {
+.navbar-theme a:focus {
     outline: none;
 }
-.navbar-custom .navbar-brand {
+.navbar-theme .navbar-brand {
     color: white;
 }
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand:active,
-.navbar-custom .navbar-brand.active {
+.navbar-theme .navbar-brand:hover,
+.navbar-theme .navbar-brand:focus,
+.navbar-theme .navbar-brand:active,
+.navbar-theme .navbar-brand.active {
     color: #000;
 }
-.navbar-custom .navbar-nav {
+.navbar-theme .navbar-nav {
     letter-spacing: 1px;
 }
-.navbar-custom .navbar-nav li a {
+.navbar-theme .navbar-nav li a {
     color: white;
 }
-.navbar-custom .navbar-nav li a:hover {
+.navbar-theme .navbar-nav li a:hover {
     color: #BFBFBF;
     outline: none;
 }
-.navbar-custom .navbar-nav li a:focus,
-.navbar-custom .navbar-nav li a:active {
+.navbar-theme .navbar-nav li a:focus,
+.navbar-theme .navbar-nav li a:active {
     color: white;
 }
-.navbar-custom .navbar-nav li.active a {
+.navbar-theme .navbar-nav li.active a {
     color: white;
     background: #000;
 }
-.navbar-custom .navbar-nav li.active a:hover,
-.navbar-custom .navbar-nav li.active a:focus,
-.navbar-custom .navbar-nav li.active a:active {
+.navbar-theme .navbar-nav li.active a:hover,
+.navbar-theme .navbar-nav li.active a:focus,
+.navbar-theme .navbar-nav li.active a:active {
     color: black;
     background: #FCFCFC;
 }
-.navbar-custom .navbar-toggle {
+.navbar-theme .navbar-toggle {
     color: white;
     text-transform: uppercase;
     font-size: 10px;
     border-color: white;
 }
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
+.navbar-theme .navbar-toggle:hover,
+.navbar-theme .navbar-toggle:focus {
     background-color: #FFF;
     color: black;
     border-color: #FFF;
@@ -239,22 +238,22 @@ header .intro-text .skills {
 
 /* Responsive Navbar Control min-width 768px */
 @media (min-width: 768px) {
-    .navbar-custom {
+    .navbar-theme {
         padding: 25px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
     }
-    .navbar-custom .navbar-brand {
+    .navbar-theme .navbar-brand {
         font-size: 2em;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
     }
-    .navbar-custom.affix {
+    .navbar-theme.affix {
         padding: 10px 0;
     }
-    .navbar-custom.affix .navbar-brand {
+    .navbar-theme.affix .navbar-brand {
         font-size: 1.5em;
     }
 }
@@ -409,45 +408,45 @@ footer .footer-below {
     background: white;
     border: solid 2px white;
 }
-.btn-primary {
+.btn-border1 {
     color: white;
     background-color: #2C3E50;
     border-color: #2C3E50;
     font-weight: 700;
 }
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.btn-border1:hover,
+.btn-border1:focus,
+.btn-border1:active,
+.btn-border1.active,
+.open .dropdown-toggle.btn-border1 {
     color: white;
     background-color: #1a242f;
     border-color: #161f29;
 }
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.btn-border1:active,
+.btn-border1.active,
+.open .dropdown-toggle.btn-border1 {
     background-image: none;
 }
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
+.btn-border1.disabled,
+.btn-border1[disabled],
+fieldset[disabled] .btn-border1,
+.btn-border1.disabled:hover,
+.btn-border1[disabled]:hover,
+fieldset[disabled] .btn-border1:hover,
+.btn-border1.disabled:focus,
+.btn-border1[disabled]:focus,
+fieldset[disabled] .btn-border1:focus,
+.btn-border1.disabled:active,
+.btn-border1[disabled]:active,
+fieldset[disabled] .btn-border1:active,
+.btn-border1.disabled.active,
+.btn-border1[disabled].active,
+fieldset[disabled] .btn-border1.active {
     background-color: #2C3E50;
     border-color: #2C3E50;
 }
-.btn-primary .badge {
+.btn-border1 .badge {
     color: #2C3E50;
     background-color: white;
 }
