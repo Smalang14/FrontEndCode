@@ -41,7 +41,6 @@ header .intial-text .skills {
 }
 .navbar-theme .navbar-brand:hover,
 .navbar-theme .navbar-brand:focus,
-/* The :active selector is used to select and style the active link */
 .navbar-theme .navbar-brand:active,
 .navbar-theme .navbar-brand.active {
     color: #000;
@@ -210,13 +209,10 @@ p {
     text-align: center;
 }
 
-/* a element control  */
+/* a element control */
 a,
-/* :hover selector is used to select elements when you mouse over them */
 a:hover,
-/* :focus selector is used to select the element that has focus */
 a:focus,
-/* :active selector is used to select and style the active link */
 a:active,
 a.active {
     color: #9F9F9F;
@@ -247,15 +243,29 @@ hr.user-border1 {
     max-width: 250px;
     margin: 25px auto 30px;
 }
-
+hr.user-border:after,
+hr.user-border1:after {
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 32px;
+    padding: 0 0.25em;
+}
 hr.user-border {
     border-color: #fff;
 }
-
+hr.user-border:after {
+    background-color: #fff;
+    color: #000;
+}
 hr.user-border1 {
     border-color: #9C9C9C;
 }
-
+hr.user-border1:after {
+    background-color: #fff;
+    color: #2C3E50;
+}
 .img-centered {
     margin: 0 auto;
     
@@ -265,14 +275,14 @@ hr.user-border1 {
 /* Responsive Control 768px */
 @media (min-width: 768px) {
     header .container {
-        padding-top: 100px;
+        padding-top: 200px;
         padding-bottom: 100px;
     }
     header .intial-text .name {
-        font-size: 76px;
+        font-size: 4.75em;
     }
     header .intial-text .skills {
-        font-size: 28px;
+        font-size: 1.75em;
     }
 }
 
