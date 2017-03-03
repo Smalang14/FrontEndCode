@@ -1,35 +1,39 @@
+
+
 /* Header Control */
+
 header {
     text-align: center;
-    background: #FFF;
-    color: #000;
+    background: #FFF; /* Had to be white as it allowed for better a better visual */
+    color: #000; 
+
 }
 header .container {
-    padding-top: 100px;
+    padding-top: 100px; /* Needed for so the header would have enough space and not look strange */
     padding-bottom: 50px;
 }
 header img {
-    display: block;
-    margin: 0 auto 20px;
+    display: block; 
+    margin: 0 auto 20px; /* Navagation bar Control */
 }
 header .intial-text .name {
     display: block;
     margin: 0 auto 20px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Web Safe fonts to boost compatibility */
     text-transform: uppercase;
     font-weight: 100;
     font-size: 32px;
 }
-header .intial-text .skills {
+header .intial-text { 
     font-size: 20px;
     font-weight: 300;
 }
-
 /* Navagation bar Control */
+
 .navbar-theme {
-    background: linear-gradient(180deg, #242424, #5e5e5e);
-    background-size: 400% 400%;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: linear-gradient(180deg, #242424, #5e5e5e); /* Added a gradient as i wanted the bar to looks cleaner */
+    background-size: 400% 400%; /* Navagation bar Control */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Web Safe fonts to boost compatibility */
     text-transform: uppercase;
     border: none;
 }
@@ -81,8 +85,8 @@ header .intial-text .skills {
     color: #000000;
     border-color: #FFF;
 }
-
 /* Responsive Navbar Control min-width 768px */
+
 @media (min-width: 768px) {
     .navbar-theme {
         padding: 25px 0;
@@ -103,10 +107,9 @@ header .intial-text .skills {
         font-size: 24px;
     }
 }
-
 /* Profile img for about section */
-.imgprofile {
 
+.imgprofile {
     display: block;
     margin: auto;
     max-width: 100%;
@@ -114,69 +117,62 @@ header .intial-text .skills {
     margin: auto;
 }
 /* Logo header */
-.logoheader1 {
 
-/* Lasts for 4 seconds */
+.logoheader1 {
+    /* Lasts for 4 seconds */
+    
     display: block;
     margin: auto;
     margin: auto;
     width: 40%;
 }
-
 /* Logo header */
+
 .logoheader {
-  /* Lasts for 4 seconds */
+    /* Lasts for 4 seconds */
+    
     display: block;
     margin: auto;
     animation-duration: 4s;
-   
     animation-name: slidein;
     margin: auto;
     width: 25%;
 }
-
 /* Sam Malang header title used to prefrom slideindown animstion bound to .name */
+
 .name {
-  /* Lasts for 4 seconds */
+    /* Lasts for 4 seconds */
+    
     animation-duration: 4s;
     animation-iteration-count: 3;
     animation-name: slidein;
-   
 }
-
-
 /* Sam Malang header title used to prefrom zoom in alternate bound to .name end */
 
 .name {
-  
     animation-duration: 15s;
     animation-name: slidein;
 }
 @-webkit-keyframes slidein {
-  from {
-    opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3);
-    transform: scale3d(.3, .3, .3);
-  }
-
-  50% {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
 }
-
 @keyframes slidein {
-  from {
-    opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3);
-    transform: scale3d(.3, .3, .3);
-  }
-
-  50% {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
 }
-
-  
 /* Disregard this code this is for another animation thats is not being used 
 @keyframes slidein {
      /* Animations transition control
@@ -208,9 +204,6 @@ header .intial-text .skills {
     }
 }
 */
-
-
-
 /* Slideshow control */
 
 .slideshow {
@@ -240,7 +233,6 @@ video {
     max-width: 1280px;
     max-height: 800px;
 }
-
 /* Body element control */
 
 body {
@@ -248,34 +240,38 @@ body {
     overflow-x: hidden;
 }
 /* P elelment control */
+
 p {
     font-size: 20px;
     text-align: center;
 }
-
 /* a element control  */
+
 a,
 /* :hover selector is used to select elements when you mouse over them */
+
 a:hover,
 /* :focus selector is used to select the element that has focus */
+
 a:focus,
 /* :active selector is used to select and style the active link */
+
 a:active,
 a.active {
     color: #9F9F9F;
     ;
     outline: none;
 }
-
 /* heading element control */
+
 h1,h2,h3,h4,h5,h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 100;
     text-align: center;
 }
-
 /* Control for border that appears under the titles */
+
 hr.user-border,
 hr.user-border1 {
     padding: 0;
@@ -285,22 +281,17 @@ hr.user-border1 {
     max-width: 250px;
     margin: 25px auto 30px;
 }
-
 hr.user-border {
     border-color: #fff;
 }
-
 hr.user-border1 {
     border-color: #9C9C9C;
 }
-
 .img-centered {
     margin: 0 auto;
-    
 }
-
-
 /* Responsive header Control 768px */
+
 @media (min-width: 768px) {
     header .container {
         padding-top: 100px;
@@ -313,9 +304,8 @@ hr.user-border1 {
         font-size: 28px;
     }
 }
-
-
 /* Section Style Control */
+
 section {
     padding: 60px 0;
     background: #FFf;
@@ -329,6 +319,7 @@ section.about1 {
     color: #fff;
 }
 /* Responsive section Control max-width 767px */
+
 @media (max-width: 767px) {
     section {
         padding: 75px 0;
@@ -347,7 +338,8 @@ section.about1 {
     max-width: 400px;
     margin: 0 auto;
 }
- /* Modal portfolio box control Styles when mouse hovers over */
+/* Modal portfolio box control Styles when mouse hovers over */
+
 #portfolio .portfolio-box .portfolios-link .zoom {
     background: #000;
     position: absolute;
@@ -355,8 +347,7 @@ section.about1 {
     height: 100%;
     opacity: 0;
     transition: all ease 0.5s;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
+   
 }
 #portfolio .portfolio-box .portfolios-link .zoom:hover {
     opacity: 1;
@@ -382,12 +373,14 @@ section.about1 {
     z-index: 2;
 }
 /* Responsive media Control min-width 767px */
+
 @media (min-width: 767px) {
     #portfolio .portfolio-box {
         margin: 0 0 70px;
     }
 }
 /* Footer Style Control */
+
 footer {
     color: #fff;
 }
@@ -406,6 +399,7 @@ footer .footer-below {
     background-color: #2F2F2F;
 }
 /* Download button and Social media icons styling  */
+
 .btn-contain {
     color: #fff;
     font-size: 21px;
@@ -422,8 +416,8 @@ footer .footer-below {
     background: #fff;
     border: solid 3px #fff;
 }
-
 /* Footer Style Control for social media buttons */
+
 .btn-social {
     display: inline-block;
     height: 50px;
@@ -437,9 +431,10 @@ footer .footer-below {
 .btn:focus,
 .btn:active,
 .btn.active {
-outline: none;
+    outline: none;
 }
 /* Modal styling */
+
 .portfolio-modal .modal-content {
     border-radius: 0;
     background-clip: border-box;
@@ -478,7 +473,8 @@ outline: none;
     margin-left: 35px;
     background-color: #2C3E50;
     transform: rotate(45deg);
-   /* The z-index property states the stack order of an element. */
+    /* The z-index property states the stack order of an element. */
+    
     z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
