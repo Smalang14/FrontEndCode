@@ -1,3 +1,9 @@
+/*!
+ * Navigation made using tutorial from https://blackrockdigital.github.io/startbootstrap-scrolling-nav/
+ * Naviagtion Scroll 
+ */
+
+
 (function($) {
   "use strict"; // Start of use strict
 
@@ -10,7 +16,7 @@
     event.preventDefault();
   });
 
-  // Highlight the top nav as scrolling occurs
+  // Highlights the top nav as scrolling occurs
   $('body').scrollspy({
     target: '.navbar-fixed-top',
     offset: 51
