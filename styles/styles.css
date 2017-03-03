@@ -117,6 +117,21 @@ header .intial-text .skills {
   
 }
 
+
+/* Logo header */
+.logoheader1 {
+  /* Lasts for 4 seconds */
+  
+
+    display: block;
+    margin: auto;
+    margin: auto;
+    width: 40%;
+}
+
+
+
+
 /* Logo header */
 .logoheader {
   /* Lasts for 4 seconds */
@@ -224,13 +239,8 @@ a.active {
     outline: none;
 }
 
-/* h element control */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+/* heading element control */
+h1,h2,h3,h4,h5,h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 100;
@@ -287,7 +297,7 @@ section h2 {
     font-size: 48px;
 }
 section.about1 {
-    background: #212121;
+    background: #000;
     color: #fff;
 }
 /* Responsive Navbar Control max-width 767px */
@@ -363,7 +373,7 @@ footer .footer-col {
     margin-bottom: 50px;
 }
 footer .footer-below {
-    padding: 25px 0;
+    padding: 20px 0;
     background-color: #2F2F2F;
 }
 /* Download button and Social media icons styling  */
@@ -439,12 +449,7 @@ outline: none;
     margin-left: 35px;
     background-color: #2C3E50;
     transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    /* IE 9 */
-    
-    -webkit-transform: rotate(45deg);
-    /* Safari and Chrome */
-    
+   /* The z-index property states the stack order of an element. */
     z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
@@ -452,11 +457,5 @@ outline: none;
     width: 1px;
     background-color: #2C3E50;
     transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    /* IE 9 */
-    
-    -webkit-transform: rotate(90deg);
-    /* Safari and Chrome */
-    
     z-index: 1052;
 }

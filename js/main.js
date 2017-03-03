@@ -1,11 +1,11 @@
 /*!
- * Navigation made using tutorial from https://blackrockdigital.github.io/startbootstrap-scrolling-nav/
- * Naviagtion Scroll 
+ * Navigation scroll made using tutorial from https://blackrockdigital.github.io/startbootstrap-scrolling-nav/ & https://codeplanet.io/how-to-make-a-single-page-website/
+ * 
  */
 
 
 (function($) {
-  "use strict"; // Start of use strict
+  "use strict"; // Start of use strict defines that Javascript code should be executed in "strict mode"
 
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $('.page-scroll a').bind('click', function(event) {
@@ -16,7 +16,7 @@
     event.preventDefault();
   });
 
-  // Highlights the top nav as scrolling occurs
+  // Highlights the top nav bar as scrolling takes place
   $('body').scrollspy({
     target: '.navbar-fixed-top',
     offset: 51
