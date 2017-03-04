@@ -12,7 +12,7 @@
   $('.page-scroll a').bind('click', function(event) {
     var $anchor = $(this);
     $('html, body').stop().animate({
-      scrollTop: ($($anchor.attr('href')).offset().top - 50)
+      scrollTop: ($($anchor.attr('href')).offset().top - 50) // The offset is the % of the viewport 
     }, 1250, 'easeInOutExpo');
     event.preventDefault();
   });
@@ -20,7 +20,7 @@
   // Highlights the top nav bar as scrolling takes place 
   $('body').scrollspy({ //The Scrollspy plugin is used to automatically update links in a navigation list based on scroll position.
     target: '.navbar-fixed-top',
-    offset: 51
+    offset: 51// The offset is the % of the viewport this will be triggred when 51%
   });
 
   // Closes the Responsive Menu on Menu Item Click

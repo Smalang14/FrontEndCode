@@ -1,6 +1,35 @@
 
 
-/* Header Control */
+/* Generic Clases */
+
+
+body {
+    font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Google & Web Safe fonts to boost compatibility */
+    overflow-x: hidden;
+}
+
+p {  
+    font-size: 23px;
+    text-align: center;
+}
+
+a, /* :hover selector is used to select elements when you mouse over them */
+a:hover, /* :focus selector is used to select the element that has focus */
+a:focus, /* :active selector is used to select and style the active link */
+a:active,
+a.active {
+    color: #9F9F9F;
+    outline: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* Header */
 
 header {
     text-align: center;
@@ -16,24 +45,49 @@ header img {
     display: block; 
     margin: 0 auto 20px; /* Navagation bar Control */
 }
-header .intial-text .name {
+header .header-text .name {
     display: block;
     margin: 0 auto 20px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Web Safe fonts to boost compatibility */
+    font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
     text-transform: uppercase;
     font-weight: 100;
     font-size: 32px;
 }
-header .intial-text { 
+header .header-text { 
     font-size: 20px;
     font-weight: 300;
 }
-/* Navagation bar Control */
+
+/* Slideshow control */
+
+.slideshow {
+    display: none;
+    max-width: 1280px;
+    max-height: 700px;
+    margin: 0px auto;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+/* Logo header */
+
+.logoheader {
+    display: block;
+    margin: auto;
+    animation-duration: 4s;
+    animation-name: headerani;
+    margin: auto;
+    width: 25%;
+}
+
+/* Navagation */
 
 .navbar-theme {
     background: linear-gradient(180deg, #242424, #5e5e5e); /* Added a gradient as i wanted the bar to looks cleaner */
     background-size: 400% 400%; /* Navagation bar Control */
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Web Safe fonts to boost compatibility */
+    /* Google and Web Safe fonts to boost compatibility */
+    font-family: "Josefin Sans" , Arial, sans-serif;
     text-transform: uppercase;
     border: none;
 }
@@ -107,116 +161,19 @@ header .intial-text {
         font-size: 24px;
     }
 }
-/* Profile img for about section */
 
-.imgprofile {
+
+/* Section Content */
+
+/*  img for about section */
+
+.imgabout {
     display: block;
     margin: auto;
     max-width: 100%;
     height: auto;
-    margin: auto;
 }
-/* Logo header */
-
-.logoheader1 {
-    /* Lasts for 4 seconds */
-    
-    display: block;
-    margin: auto;
-    margin: auto;
-    width: 40%;
-}
-/* Logo header */
-
-.logoheader {
-    /* Lasts for 4 seconds */
-    
-    display: block;
-    margin: auto;
-    animation-duration: 4s;
-    animation-name: slidein;
-    margin: auto;
-    width: 25%;
-}
-/* Sam Malang header title used to prefrom slideindown animstion bound to .name */
-
-.name {
-    /* Lasts for 4 seconds */
-    
-    animation-duration: 4s;
-    animation-iteration-count: 3;
-    animation-name: slidein;
-}
-/* Sam Malang header title used to prefrom zoom in alternate bound to .name end */
-
-.name {
-    animation-duration: 15s;
-    animation-name: slidein;
-}
-@-webkit-keyframes slidein {
-    from {
-        opacity: 0;
-        -webkit-transform: scale3d(.3, .3, .3);
-        transform: scale3d(.3, .3, .3);
-    }
-    50% {
-        opacity: 1;
-    }
-}
-@keyframes slidein {
-    from {
-        opacity: 0;
-        -webkit-transform: scale3d(.3, .3, .3);
-        transform: scale3d(.3, .3, .3);
-    }
-    50% {
-        opacity: 1;
-    }
-}
-/* Disregard this code this is for another animation thats is not being used 
-@keyframes slidein {
-     /* Animations transition control
-    from, 60%, 75%, 90%, to {
-        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    }
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, -3000px, 0);
-        transform: translate3d(0, -3000px, 0);
-    }
-    60% {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 25px, 0);
-        transform: translate3d(0, 25px, 0);
-    }
-    75% {
-        -webkit-transform: translate3d(0, -10px, 0);
-        transform: translate3d(0, -10px, 0);
-    }
-    90% {
-        -webkit-transform: translate3d(0, 5px, 0);
-        transform: translate3d(0, 5px, 0);
-    }
-    to {
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-*/
-/* Slideshow control */
-
-.slideshow {
-    display: none;
-    max-width: 1280px;
-    max-height: 700px;
-    margin: 0px auto;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    
-    filter: grayscale(100%);
-}
-/* Video Showcase */
+/* Video for portfolio setion */
 
 video {
     width: 100%;
@@ -224,7 +181,7 @@ video {
     max-width: 1280px;
     max-height: 410px;
 }
-/* Google API map control */
+/* Google API map control  for contact section */
 
 .googlemap {
     display: none;
@@ -233,44 +190,9 @@ video {
     max-width: 1280px;
     max-height: 800px;
 }
-/* Body element control */
 
-body {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    overflow-x: hidden;
-}
-/* P elelment control */
 
-p {
-    font-size: 20px;
-    text-align: center;
-}
-/* a element control  */
-
-a,
-/* :hover selector is used to select elements when you mouse over them */
-
-a:hover,
-/* :focus selector is used to select the element that has focus */
-
-a:focus,
-/* :active selector is used to select and style the active link */
-
-a:active,
-a.active {
-    color: #9F9F9F;
-    ;
-    outline: none;
-}
-/* heading element control */
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 100;
-    text-align: center;
-}
-/* Control for border that appears under the titles */
+/* Borders that appear in all sections under text titles */
 
 hr.user-border,
 hr.user-border1 {
@@ -287,9 +209,14 @@ hr.user-border {
 hr.user-border1 {
     border-color: #9C9C9C;
 }
+
+
+/* Used to lock in content where needed  */
+
 .img-centered {
     margin: 0 auto;
 }
+
 /* Responsive header Control 768px */
 
 @media (min-width: 768px) {
@@ -297,14 +224,14 @@ hr.user-border1 {
         padding-top: 100px;
         padding-bottom: 100px;
     }
-    header .intial-text .name {
+    header .header-text .name {
         font-size: 76px;
     }
-    header .intial-text .skills {
+    header .header-text .skills {
         font-size: 28px;
     }
 }
-/* Section Style Control */
+/* Section  */
 
 section {
     padding: 60px 0;
@@ -379,25 +306,7 @@ section.about1 {
         margin: 0 0 70px;
     }
 }
-/* Footer Style Control */
 
-footer {
-    color: #fff;
-}
-footer h3 {
-    margin-bottom: 30px;
-}
-footer .footer-above {
-    padding-top: 50px;
-    background-color: #000;
-}
-footer .footer-col {
-    margin-bottom: 50px;
-}
-footer .footer-below {
-    padding: 20px 0;
-    background-color: #2F2F2F;
-}
 /* Download button and Social media icons styling  */
 
 .btn-contain {
@@ -433,7 +342,7 @@ footer .footer-below {
 .btn.active {
     outline: none;
 }
-/* Modal style control */
+/* Modal */
 
 .portfolio-modal .modal-content {
     border-radius: 0;
@@ -488,3 +397,98 @@ footer .footer-below {
     transform: rotate(90deg);
     z-index: 1052;
 }
+
+
+
+/* Footer */
+
+footer {
+    color: #fff;
+}
+footer h3 {
+    margin-bottom: 30px;
+}
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #000;
+}
+footer .footer-col {
+    margin-bottom: 50px;
+}
+footer .footer-below {
+    padding: 20px 0;
+    background-color: #2F2F2F;
+}
+
+/* Logo for Footer */
+
+.logofooter {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+/* Animations */
+
+.name {
+    animation-duration: 4s; /* Lasts for 4 seconds */
+    animation-iteration-count: 3;
+    animation-name: headerani;
+}
+
+/* Sam Malang header title used to prefrom zoom in alternate bound to .name end */
+
+.name {
+    animation-duration: 15s;
+    animation-name: headerani;
+}
+@-webkit-keyframes headerani {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@keyframes headerani {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+/* Disregard this code this is for another animation thats is not being used 
+@keyframes slidein {
+     /* Animations transition control
+    from, 60%, 75%, 90%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+    to {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+*/
