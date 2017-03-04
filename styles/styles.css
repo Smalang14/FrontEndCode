@@ -433,7 +433,7 @@ footer .footer-below {
 .btn.active {
     outline: none;
 }
-/* Modal styling */
+/* Modal style control */
 
 .portfolio-modal .modal-content {
     border-radius: 0;
@@ -467,16 +467,20 @@ footer .footer-below {
 .portfolio-modal .close-modal:hover {
     opacity: 0.3;
 }
+
+/* The style control for the x that appears in the right corner of each modal */
+
 .portfolio-modal .close-modal .lr {
     height: 75px;
     width: 1px;
     margin-left: 35px;
     background-color: #2C3E50;
-    transform: rotate(45deg);
+    transform: rotate(45deg); 
+
     /* The z-index property states the stack order of an element. */
-    
     z-index: 1051;
 }
+
 .portfolio-modal .close-modal .lr .rl {
     height: 75px;
     width: 1px;

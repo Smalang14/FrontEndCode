@@ -1,5 +1,6 @@
 /*!
- * Navigation scroll made using tutorial from https://blackrockdigital.github.io/startbootstrap-scrolling-nav/ & https://codeplanet.io/how-to-make-a-single-page-website/
+ * Navigation scroll made using tutorial from https://blackrockdigital.github.io/startbootstrap-scrolling-nav/ https://codeplanet.io/how-to-make-a-single-page-website/
+ * https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp
  * 
  */
 
@@ -7,7 +8,7 @@
 (function($) {
   "use strict"; // Start of use strict defines that Javascript code should be executed in "strict mode"
 
-  // jQuery for page scrolling feature - requires jQuery Easing plugin
+  // jQuery for page scrolling feature - requires or will not work jQuery Easing plugin
   $('.page-scroll a').bind('click', function(event) {
     var $anchor = $(this);
     $('html, body').stop().animate({
@@ -16,8 +17,8 @@
     event.preventDefault();
   });
 
-  // Highlights the top nav bar as scrolling takes place
-  $('body').scrollspy({
+  // Highlights the top nav bar as scrolling takes place 
+  $('body').scrollspy({ //The Scrollspy plugin is used to automatically update links in a navigation list based on scroll position.
     target: '.navbar-fixed-top',
     offset: 51
   });
