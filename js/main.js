@@ -1,5 +1,5 @@
 /*!
- * Navigation scroll made using tutorial from https://blackrockdigital.github.io/startbootstrap-scrolling-nav/ https://codeplanet.io/how-to-make-a-single-page-website/
+ * Navigation scroll made using tutorial from https://blackrockdigital.github.io/startbootstrap-scrolling-nav/ *https://codeplanet.io/how-to-make-a-single-page-website/
  * https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp
  * 
  */
