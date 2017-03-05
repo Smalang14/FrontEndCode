@@ -193,6 +193,8 @@ header .header-text {
     margin: auto;
     max-width: 100%;
     height: auto;
+    margin-top: 17px;
+
 }
 /* Video for portfolio setion */
 
@@ -333,21 +335,42 @@ section.about1 {
 
 /* Download button and Social media icons styling  */
 
-.btn-contain {
+.btn-social {
     color: #fff;
     font-size: 21px;
     border: solid 3px #fff;
     background: transparent;
     transition: all 0.3s ease-in-out;
-    margin-top: 15px;
+    margin-top: 5px;
 }
-.btn-contain:hover,
-.btn-contain:focus,
-.btn-contain:active,
-.btn-contain.active {
+.btn-social:hover,
+.btn-social:focus,
+.btn-social:active,
+.btn-social.active {
     color: #000;
     background: #fff;
     border: solid 3px #fff;
+}
+
+.btn-download {
+    color: #fff;
+    font-size: 21px;
+    border: solid 3px #fff;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-top: 30px;
+
+}
+
+.btn-download:hover,
+.btn-download:focus,
+.btn-downliad:active,
+.btn-download.active {
+    color: #000;
+    background: #fff;
+    border: solid 3px #fff;
+
+
 }
 /* Footer Style Control for social media buttons */
 
