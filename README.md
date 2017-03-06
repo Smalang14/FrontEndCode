@@ -12,12 +12,22 @@ The content included on this site contains work from three different final year 
 
 ## Getting Started
 
-This website is intended to be compatible with all web browsers with optimal functionality at it’s core
+This website is intended to be compatible with all web browsers with optimal functionality at it’s core talk about single page design. The colour scheme 
 
 
 ## Intial Devlopment 
 
-Mockups/Wireframes/Sketches 
+### Mockups/Wireframes/Sketches 
+
+
+## Built using 
+
+* [Bootstrap](https://getbootstrap.com/) - The bootstrap grid used
+* [GoogleFonts](https://fonts.google.com/) - Used for fonts
+* [Font Awesome](https://fontawesome.io/) - Used for fonts
+* [Jquery](https://jquery.com/) - Used for Navagation 
+
+
 
 ## Testing
 
@@ -25,30 +35,20 @@ Explain how to run the automated tests for this system
 
 ### CSS and HTML Validator 
 
-### 
+Explain the css issues 
 
-Explain what these tests test and why
+### User Testing
 
-```
-Give an example
-```
+How the site was tested by mean and other people 
 
-## Sources used
+## Issues and Problems Solved
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 
 ## Authors
 
-* **Sam Malang** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Sam Malang** - *My Github Account* - [Smalang14](https://github.com/Smalang14)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
