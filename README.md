@@ -26,23 +26,35 @@ This website is intended to be compatible with all web browsers with optimal fun
 * [GoogleFonts](https://fonts.google.com/) - Used for fonts
 * [Font Awesome](https://fontawesome.io/) - Used for fonts
 * [Jquery](https://jquery.com/) - Used for Navagation 
-
+* [Google Maps](https://developers.google.com/maps/) - Used for Maps
+* [BlackRockDigital](https://startbootstrap.com/template-overviews/scrolling-nav/) - Navigation Bar Tutorial 
+* [CodePlanet](https://codeplanet.io/how-to-make-a-single-page-website/) - Single Page Website Tutorial
+* [ScrollSpy](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp) - Scroll Spy used for navagation bar javascrpit
+* [W3Schools](https://www.w3schools.com/w3css/w3css_slideshow.asp) - Slideshow Carousel
 
 
 ## Testing
 
 Explain how to run the automated tests for this system
 
-### CSS and HTML Validator 
+### HTML and CSS Validator 
 
-Explain the css issues 
+The Index.html validates with no issues. 
+The styles.css validates with no issues
+The bootstrap and Font-Awesome css files have errors however that is out of my control and expected.
 
 ### User Testing
 
-How the site was tested by mean and other people 
+User testing was undertaken by Albert Moody and Joshuha Crooks
+
+Albert 
+Josh - Commented that the Slideshow animation should be changed
 
 ## Issues and Problems Solved
 
+The Navgation Bar
+The Slideshow 
+Google Maps API 
 
 
 ## Authors
