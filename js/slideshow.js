@@ -1,6 +1,6 @@
 /*!
- * Slideshow Carousel made using methods from https://www.w3schools.com/w3css/w3css_slideshow.asp
- * Naviagtion Scroll 
+ * Slideshow Carousel 
+ * 
  */
 var myIndex = 0;
 carousel();

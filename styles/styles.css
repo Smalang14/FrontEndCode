@@ -294,7 +294,7 @@ section.about1 {
 /* Modal portfolio box control Styles when mouse hovers over */
 
 #portfolio .portfolio-box .portfolios-link .box {
-    background: #000;
+    background: #000; 
     position: absolute;
     width: 100%;
     height: 100%;
@@ -302,6 +302,7 @@ section.about1 {
     transition: all ease 0.5s;
    
 }
+
 #portfolio .portfolio-box .portfolios-link .box:hover {
     opacity: 1;
 }
