@@ -7,7 +7,7 @@
 Modulamin Sam Malang - P14152187
 # Portfolio - Sam Malang
 
-This project is intended to showcase the design work I have created within the last 3 years of being at DMU University studying Computer Science.The content included on this site contains work from three different final year modules. Front-end, Computer Ethics and Final Year Software Project.
+This project is a portfolio of the design work I have created within the last 3 years of being at DMU University studying Computer Science.The content included on this site contains work from three different final year modules. Front-end, Computer Ethics and Final Year Software Project.
 
 ## The Vision
 
@@ -60,10 +60,11 @@ The bootstrap and Font-Awesome css files have errors however that is out of my c
 
 ### User Testing
 
-User testing was undertaken by Albert Moody and Joshuha Crooks. The website
+User testing was undertaken by Albert Moody and Joshuha Crooks. They tested both the normal and mobile versions of the site to try and fine any errors
 
-Albert Moody - 
-Josh Crooks - Commented that the Slideshow animation should be changed
+Albert Moody - Commented that the website had no problems with both the normal and mobile version.
+
+Josh Crooks - Commented that the animation for the logo bellow the slideshow should play more than once. So that the user would see it while they ready the text bellow it
 
 ## Issues and Problems Solved
 
