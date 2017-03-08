@@ -1,4 +1,4 @@
-
+/* I tried to make the CSS strucutre as clear as possible following the structre the website has */
 
 /* Generic Clases */
 
@@ -346,12 +346,10 @@ hr.user-border3 {
 }
 
 
+/* Skills image in the about section needed to be in the right place */
 .img-skills {
-    margin-top: 17px;
-
-   
+    margin-top: 17px;   
 }
-
 
 
 /* Responsive header Control 768px */
@@ -618,20 +616,6 @@ footer .footer-below {
    body { font-size: 2em; }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Animations not being used */
