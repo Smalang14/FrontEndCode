@@ -109,7 +109,7 @@
         <!-- Column elements for bootstap Grid in this case large grid that spans 12 columns -->
         <div class="col-lg-12 text-center">
           <!-- Title for the section -->
-          <h2>Portfolio</h2>
+          <h2 class="updown">Portfolio</h2>
           <!-- Border line that appears under the title line that appears under the title -->
           <hr class="user-border1">
         </div>
@@ -202,10 +202,10 @@
 
  <!-- BacTrack -->
  <!-- Title for the section -->
-      <h2>BacTrack</h2>
-
+      </div>
+      <h2 class="updown">BacTrack</h2>
   <!-- Border line that appears under the title line that appears under the title -->
-      <hr class="user-border1">
+      <hr class="user-border2">
       <div class="row">
         <!-- PortfolioModal1 box  -->
         <div class="col-sm-4 portfolio-box ">
@@ -249,14 +249,14 @@
             <img src="img/portfolio/modal/bactrack/bacad2.png" class="img-responsive" alt="HiveLogo">
           </a>
         </div>
-
+      </div>
 
 <!-- HIVE -->
  <!-- Title for the section -->
-      <h2>HIVE</h2>
+      <h2 class="updown">HIVE</h2>
 
   <!-- Border line that appears under the title line that appears under the title -->
-      <hr class="user-border1">
+      <hr class="user-border3">
       <div class="row">
         <!-- PortfolioModal10 box  -->
         <div class="col-sm-4 portfolio-box ">
@@ -300,15 +300,9 @@
             <img src="img/portfolio/modal/hive/comingsoon.png" class="img-responsive" alt="HiveLogo">
           </a>
         </div>
-
-
-
-
-
-
-
-                  <h2>How it's Made</h2>
-                    <hr class="user-border1">
+      </div>
+        <h2 class="updown">How it's made!</h2>
+        <hr class="user-border1">
 
     
         <!-- Porfolio Video Section (Video is set to loop and is muted -->
@@ -328,7 +322,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <!-- About Section title -->
-          <h2>About</h2>
+        <h2 class="updown">About</h2>
           <!-- Border line that appears under the title -->
           <hr class="user-border">
         </div>
@@ -337,8 +331,8 @@
         <div class="col-lg-4 col-lg-offset-2">
           <!-- Image that appears under the title control image is resposive and centered  -->
           <img src="img/portfolio/Profile1.png" class="imgabout" alt="SamMalangPhoto">
-        </div>
-        <div class="col-lg-4">
+          </div>
+          <div class="col-lg-4">
           <!-- Text content control -->
           <p>I am a twenty-two-year-old student in my final year of a degree in Computer Science at DMU. I possess 12 GCSEs and 3 A-Levels.This Porftolio is intented to be a showcase of work done over the 3 years i have been at university. The website is a mixture of front-end Development and Graphic Design.</p>
           <!-- Border line that is used to seperate the content and skills Area -->
@@ -346,12 +340,12 @@
           <!-- Title that appears under Border line within the about section -->
           <h4>Design and Code Skills</h4>
           <!-- Skills image that is resposive and centered -->
-          <img src=img/Skills.png class="img-responsive img-centered" alt="Skills">
+          <img src=img/Skills.png class="img-responsive img-centered img-skills shake" alt="Skills">
         </div>
         <!-- Boot-Strap grid control for Download Resume button -->
         <div class="col-lg-8 col-lg-offset-2 text-center">
           <!-- Download button for resume link   -->
-          <a href="FrontEndCode/SamMalangCV.docx" class="btn btn-lg btn-download">
+          <a href="FrontEndCode/SamMalangCV.docx" class="btn btn-lg btn-download flash">
             <!-- Font-Awesome icon Download Button (Cannot get button to work with git hub download for some reason -->
             <i class="fa fa-arrow-down"></i> Download Resume
           </a>
@@ -445,8 +439,9 @@
               <!-- Box title -->
               <h2>BACTrack Logo</h2>
               <!-- BACLogo Box Responsive -->
+               </div>
+               <p>The BACTrack Project logo is a mixture of a blood drop and alcohol. The color scheme was chosen as I wanted the logo to be eye catching but minimalist in design.</p>
               <img src="img/portfolio/modal/baclogo.png" class="img-responsive img-centered" alt="BACBOX">
-              <p>The BACTrack Project logo is a mixture of a blood drop and alcohol. The color scheme was chosen as I wanted the logo to be eye catching but minimalist in design.</p>
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -473,8 +468,9 @@
               <!-- Box title -->
               <h2>Sam Malang Logo</h2>
               <!-- SamMalangLogo Box Responsive -->
-              <img src="img/portfolio/modal/samlogo.png" class="img-responsive img-centered" alt="SAMBOX">
+              </div>
               <p>My own personal logo was designed with the intention for it to be as unique as possible. I used my own face as the foundation for the design. The design direction choosen is modern with minimalis elements.</p>
+              <img src="img/portfolio/modal/samlogo.png" class="img-responsive img-centered" alt="SAMBOX">
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -501,8 +497,9 @@
               <!-- Box title -->
               <h2>Hive Logo</h2>
               <!-- HIVELogo Box Responsive -->
-              <img src="img/portfolio/modal/hivelogo.png" class="img-responsive img-centered" alt="HIVEBOX">
+              </div>
               <p>The HIVE logo is for a project I am working on that is an educational VLE. The logo represents both a bee and a book paying homage to the name of the application.</p>
+              <img src="img/portfolio/modal/hivelogo.png" class="img-responsive img-centered" alt="HIVEBOX">
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -511,7 +508,7 @@
       </div>
     </div>
   </div>
-  <!-- PortfolioModal4 content that holdes the actual content of the box that was linked above as a hover image -->
+ <!-- PortfolioModal4 content that holdes the actual content of the box that was linked above as a hover image -->
   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
       <!-- When clicked will close the box and return to the protfolio section overview -->
@@ -529,8 +526,9 @@
               <!-- Box title -->
               <h2>BACTrack Page Mock-up</h2>
               <!-- BACL Box Responsive -->
+              </div>
+               <p>The BACTrack homepage Photoshop mock-up design, features a colour scheme that reflects the logo and branding colours. This design will be incorporated when more content is available for the BACTrack portfolio.</p>
               <img src="img/portfolio/modal/bachomepage.png" class="img-responsive img-centered" alt="BACHOMEBOX">
-              <p>The BACTrack homepage Photoshop mock-up design, features a colour scheme that reflects the logo and branding colours. This design will be incorporated when more content is available for the BACTrack portfolio.</p>
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -557,8 +555,9 @@
               <!-- Box title -->
               <h2>Main Homepage Mock-up</h2>
               <!-- BACLogo Box Responsive -->
-              <img src="img/portfolio/modal/samhomepage.png" class="img-responsive img-centered" alt="SAMHOMEBOX">
+              </div>
               <p>The main homepage Photoshop mock-up design, features a colour scheme that reflects the logo and branding colours. This design has been incorporated within the current website using elements that were possible to implement.</p>
+              <img src="img/portfolio/modal/samhomepage.png" class="img-responsive img-centered" alt="SAMHOMEBOX">
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -585,8 +584,9 @@
               <!-- Box title -->
               <h2>Hive Page Mock-up</h2>
               <!-- BACLogo Box Responsive -->
-              <img src="img/portfolio/modal/hivehomepage.png" class="img-responsive img-centered" alt="HIVEHOMEBOX">
+              </div>
               <p>The HIVE homepage Photoshop mock-up design, features a colour scheme that reflects the logo and branding colours. This design will be incorporated when more content is available for the HIVE portfolio.</p>
+              <img src="img/portfolio/modal/hivehomepage.png" class="img-responsive img-centered" alt="HIVEHOMEBOX">
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -616,8 +616,9 @@
               <!-- Box title -->
               <h2>BACTrack Advert 1</h2>
               <!-- BACLogo Box Responsive -->
-              <img src="img/portfolio/modal/bactrack/bacad1.png" class="img-responsive img-centered" alt="BACad1">
+              </div>
               <p>The BACTrack Advert 1 is.</p>
+              <img src="img/portfolio/modal/bactrack/bacad1.png" class="img-responsive img-centered" alt="BACad1">
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -644,8 +645,9 @@
               <!-- Box title -->
               <h2>BACTrack</h2>
               <!-- SamMalangLogo Box Responsive -->
-              <img src="img/portfolio/modal/baclogo.png" class="img-responsive img-centered" alt="bacinfo">
+              </div>
               <p>BacTrack is a project for my </p>
+              <img src="img/portfolio/modal/baclogo.png" class="img-responsive img-centered" alt="bacinfo">
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -672,8 +674,9 @@
               <!-- Box title -->
               <h2>BACTrack Advert 2</h2>
               <!-- BACLogo Box Responsive -->
-              <img src="img/portfolio/modal/bactrack/bacad2.png" class="img-responsive img-centered" alt="bacad2">
+              </div>
               <p>The HIVE homepage Photoshop mock-up design, features a colour scheme that reflects the logo and branding colours. This design will be incorporated when more content is available for the HIVE portfolio.</p>
+              <img src="img/portfolio/modal/bactrack/bacad2.png" class="img-responsive img-centered" alt="bacad2">
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -705,8 +708,9 @@
               <!-- Box title -->
               <h2>Development</h2>
               <!-- BACLogo Box Responsive -->
-              <img src="img/portfolio/modal/hive/comingsoon.png" class="img-responsive img-centered" alt="comingsoon">
+              </div>
               <p>This Project is still in devlopment. Watch this space!</p>
+              <img src="img/portfolio/modal/hive/comingsoon.png" class="img-responsive img-centered" alt="comingsoon">
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -733,8 +737,9 @@
               <!-- Box title -->
               <h2>Sam Malang Logo</h2>
               <!-- SamMalangLogo Box Responsive -->
-              <img src="img/portfolio/modal/hivelogo.png" class="img-responsive img-centered" alt="SAMBOX">
+              </div>
               <p>The HIVE project is being developed for my final year project.</p>
+              <img src="img/portfolio/modal/hivelogo.png" class="img-responsive img-centered" alt="SAMBOX">
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -761,8 +766,9 @@
              <!-- Box title -->
               <h2>Devlopment</h2>
               <!-- BACLogo Box Responsive -->
-              <img src="img/portfolio/modal/hive/comingsoon.png" class="img-responsive img-centered" alt="comingsoon">
+              </div>
               <p>This Project is still in devlopment. Watch this space!</p>
+              <img src="img/portfolio/modal/hive/comingsoon.png" class="img-responsive img-centered" alt="comingsoon">
               <!-- Button that closes the box when selected uses Font-Awesome Close icon -->
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
