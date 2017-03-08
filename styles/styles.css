@@ -120,57 +120,57 @@ header .header-text {
 .navbar-theme a:focus {
     outline: none;
 }
-.navbar-theme .navbar-brand { /* Sam Malang nav menu */
+.navbar-theme .navbar-brand { /* Sam Malang button style  */
     color: #fff;
     font-size: 32px;
 }
 .navbar-theme .navbar-brand:hover,
 .navbar-theme .navbar-brand:focus,
 .navbar-theme .navbar-brand:active,
-.navbar-theme .navbar-brand.active {
-    color: #000;
+.navbar-theme .navbar-brand.active { /* Sam Malang button hover style  */
+    color: #FFAF00;
 }
 .navbar-theme .navbar-nav {
     letter-spacing: 1px;
 }
-.navbar-theme .navbar-nav li a {
-    color: #fff;
+.navbar-theme .navbar-nav li a { /* Nav Bar button colour style  */
+    color: #FFF;
 }
-.navbar-theme .navbar-nav li a:hover {
-    color: #BFBFBF;
+.navbar-theme .navbar-nav li a:hover { /* Nav Bar button hover style */
+    color: #FFAF00;
     outline: none;
 }
 .navbar-theme .navbar-nav li a:focus,
-.navbar-theme .navbar-nav li a:active {
-    color: #fff;
+.navbar-theme .navbar-nav li a:active { /* Nav Bar forcus and active style */
+    color: #000;
 }
-.navbar-theme .navbar-nav li.active a {
-    color: #fff;
-    background: #000;
+.navbar-theme .navbar-nav li.active a {  /* Navbar when section is scrolled into view this sqaure will be shown */
+    color: #000; 
+    background: #FFF; 
 }
 .navbar-theme .navbar-nav li.active a:hover,
 .navbar-theme .navbar-nav li.active a:focus,
-.navbar-theme .navbar-nav li.active a:active {
-    color: #000000;
-    background: #FCFCFC;
-}
-.navbar-theme .navbar-toggle {
+.navbar-theme .navbar-nav li.active a:active { /* Navbar when section is scrolled into view this sqaure will be shown on mouse hover */
     color: #fff;
+    background: #000;
+}
+.navbar-theme .navbar-toggle { /* Resposive Menu styles */
+    color: #FFF;
     text-transform: uppercase;
     font-size: 10px;
     border-color: #fff;
 }
 .navbar-theme .navbar-toggle:hover,
-.navbar-theme .navbar-toggle:focus {
+.navbar-theme .navbar-toggle:focus { /* Resposive Menu hover and focus */
     background-color: #FFF;
-    color: #000000;
+    color: #000;
     border-color: #FFF;
 }
-/* Responsive Navbar Control min-width 768px */
+/* Responsive Navbar Control min-width 768px so nav bar scrolls smoothly */
 
 @media (min-width: 768px) {
     .navbar-theme {
-        padding: 25px 0;
+        padding: 17px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
@@ -352,7 +352,7 @@ hr.user-border3 {
 }
 
 
-/* Responsive header Control 768px */
+/* Responsive header Control 768px so header will be the correct size */
 
 @media (min-width: 768px) {
     header .container {
@@ -383,7 +383,7 @@ section.about1 {
     color: #fff;
 }
 
-/* Responsive section Control max-width 767px */
+/* Responsive section Control max-width 767px so each section will be the correct size */
 
 @media (max-width: 767px) {
     section {
@@ -407,13 +407,30 @@ section.about1 {
 /* Modal portfolio box control Styles when mouse hovers over */
 
 #portfolio .portfolio-box .portfolios-link .box {
-    background: #000; 
     position: absolute;
     width: 100%;
     height: 100%;
     opacity: 0;
     transition: all ease 0.5s;
    
+}
+
+/* Box styles for each section */
+
+
+.samlogo {
+background: #000;
+
+}
+
+.bactrack {
+background: #F04B4F;
+
+}
+
+.hive {
+background: #FFAF00;
+
 }
 
 #portfolio .portfolio-box .portfolios-link .box:hover {
@@ -439,7 +456,7 @@ section.about1 {
 #portfolio * {
     z-index: 2;
 }
-/* Responsive media Control for portfolio section min-width 767px */
+/* min-width 767px media Control so portfolio boxes will be the correct size */
 
 @media (min-width: 767px) {
     #portfolio .portfolio-box {
