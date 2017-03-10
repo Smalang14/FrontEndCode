@@ -26,7 +26,7 @@
   });
 
   // Offset for Main Navigation
-  $('#mainNav').affix({
+  $('#mainNav').affix({ // # used in the HTML code to link to the nav bar for example #portfolio will go down to the portfolio area
     offset: {
       top: 100
     }
