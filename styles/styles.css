@@ -57,16 +57,52 @@ header .header-text {
     font-weight: 300;
 }
 
-/* Slideshow control */
-
 .slideshow {
     display: none;
-    max-width: 1280px;
+    max-width: 1150px; /* Decided that this width and hight was better */
+    max-height: 600px;
+    /*max-width: 1280px;
     max-height: 700px;
-    margin: 0px auto;
+    margin: 0px auto;*/
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+}
+
+/* Arrow button under slideshow  */
+
+.arrow{
+    color: transparent;
+    font-size: 10px;
+}
+
+.btn-arrow {
+    color: #000;
+    font-size: 21px;
+   
+    background: #FFF;
+    transition: all 0.3s ease-in-out;
+    margin-top: 0px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #000;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 55px;
+
+}
+
+.btn-arrow:hover,
+.btn-arrow:focus,
+.btn-arrow:active,
+.btn-arrow.active {
+    color: #FFF;
+    background: #000;
+    border: solid 1px #000;
+    
+
+
 }
 
 /* Logo header and title */
@@ -114,6 +150,7 @@ header .header-text {
     background-size: 400% 400%; /* Navagation bar Control */
     /* Google and Web Safe fonts to boost compatibility */
     font-family: "Josefin Sans" , Arial, sans-serif;
+    font-size: 16px;
     text-transform: uppercase;
     border: none;
 }
@@ -122,7 +159,7 @@ header .header-text {
 }
 .navbar-theme .navbar-brand { /* Sam Malang button style  */
     color: #000;
-    font-size: 32px;
+    font-size: 15px;
 }
 .navbar-theme .navbar-brand:hover,
 .navbar-theme .navbar-brand:focus,
@@ -385,6 +422,12 @@ section.about1 {
     color: #000;
 }
 
+.section .welcome {
+    padding: -60px 0;
+   
+}
+
+
 /* Responsive section Control max-width 767px so each section will be the correct size */
 
 @media (max-width: 767px) {
@@ -508,14 +551,14 @@ background: #FFAF00;
 /* Footer Style Control for social media buttons */
 
 .btn-social {
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    border: 2px solid #000;
-    border-radius: 20%;
-    text-align: center;
-    font-size: 27px;
-    line-height: 55px;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        border: 2px solid #000;
+        border-radius: 20%;
+        text-align: center;
+        font-size: 27px;
+        line-height: 55px;
 }
 .btn:focus,
 .btn:active,
@@ -607,8 +650,6 @@ footer .footer-below {
 }
 
 
-
-
 /* Logo for Footer */
 
 .logofooter {
@@ -647,40 +688,3 @@ footer .footer-below {
 }
 
 
-/* Animations not being used */
-
-
-/* Sam Malang header title used for headeranimations */
-
-
-/* Disregard this code this is for another animation thats is not being used 
-@keyframes slidein {
-     /* Animations transition control
-    from, 60%, 75%, 90%, to {
-        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    }
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, -3000px, 0);
-        transform: translate3d(0, -3000px, 0);
-    }
-    60% {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 25px, 0);
-        transform: translate3d(0, 25px, 0);
-    }
-    75% {
-        -webkit-transform: translate3d(0, -10px, 0);
-        transform: translate3d(0, -10px, 0);
-    }
-    90% {
-        -webkit-transform: translate3d(0, 5px, 0);
-        transform: translate3d(0, 5px, 0);
-    }
-    to {
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-*/
