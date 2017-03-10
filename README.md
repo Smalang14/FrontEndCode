@@ -33,6 +33,25 @@ This section shows the initial ideas I had for the project in the form of Photos
 5. Logo Page - The Logo page would document that idea behind the main site logo. 
 6. HIVE Page - The hive page would feature a yellow them and the designs i created for that project module.
 
+### Early Screenshots
+
+<p align="center">
+<img width="1280" alt="screenold" src="https://cloud.githubusercontent.com/assets/24516541/23778500/77d6a1a4-0532-11e7-945e-4083ffe780de.png">
+
+1. Home Section - The Home section just features the main logo. 
+2. Portfolio Page - The Portfolio page only has 6 boxes at this stage i had no plans to add anymore.
+3. About Page - The about page was intitaily just a picture and minmal text.
+4. Contact Page - The Contact page at this stage had no content.
+
+
+### Finshed Site 
+
+<p align="center">
+<img width="1280" alt="screens" src="https://cloud.githubusercontent.com/assets/24516541/23779808/8f913220-053a-11e7-8d04-d5597bf2a6b7.png">
+
+The finshed overall has met and exceded all of the 
+
+
 
 ## Built using 
 The links to the tutorials and reosurces i used to create the portfolio.
@@ -46,8 +65,8 @@ The links to the tutorials and reosurces i used to create the portfolio.
 * [CodePlanet](https://codeplanet.io/how-to-make-a-single-page-website/) - Single Page Website Tutorial
 * [ScrollSpy](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp) - Scroll Spy used for navagation bar javascrpit
 * [W3Schools](https://www.w3schools.com/w3css/w3css_slideshow.asp) - Slideshow Carousel
-* [W3Schools](https://webdesign.tutsplus.com/articles/modal-and-modeless-boxes-in-web-design--webdesign-2282) - Modal Boxes
-
+* [Bootstrap](hhttps://v4-alpha.getbootstrap.com/components/modal/) - Modal Boxes
+* [Bootstrap](http://getbootstrap.com/javascript/) - Modal Boxes Java Script Resources (bootstrap.js,bootstrap.min.js)
 
 ## Testing
 The portfolio site was tested using a combination of online validators and actual user testing.
