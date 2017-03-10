@@ -48,7 +48,7 @@ This section shows the initial ideas I had for the project in the form of Photos
 4. Contact Page - The Contact page at this stage had no content.
 
 
-### Finished Site 
+## Finished Site 
 
 <p align="center">
 <img width="1280" alt="screens" src="https://cloud.githubusercontent.com/assets/24516541/23779808/8f913220-053a-11e7-8d04-d5597bf2a6b7.png">
